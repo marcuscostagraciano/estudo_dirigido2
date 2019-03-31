@@ -17,3 +17,6 @@ if ($num2<$num1 && $num2<$num3)
 
 if ($num3<$num1 && $num3<$num2) 
     {print "O preço do 3º produto é mais barato\n";}
+
+if ($num1==$num2 && $num2==$num3) 
+    {print "Todos os produtos custam a mesma quantia\n";}
