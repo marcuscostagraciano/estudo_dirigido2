@@ -4,7 +4,9 @@
 - [x] Exercício 2
 - [x] Exercício 3
   - [x] Exercício 3 (versão diferente)
+  - [x] Exercício 3 (versão fgetc)
 - [x] Exercício 4
+  - [x] Exercício 4 (versão fgetc)
 - [x] Exercício 5
 - [x] Exercício 6
 - [x] Exercício 7
