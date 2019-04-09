@@ -52,7 +52,7 @@ if ($sequenciaouindividual==2)
                         {print "* ";}
                     print "\n";}}
 
-        elseif ($trianguloouquadrado==29) //29 é a idade do criador do jogo quando The Sims foi lançado
+        elseif ($trianguloouquadrado==40) //40 é a idade do criador do jogo quando The Sims foi lançado
                 {print "\n";
                     for ($i = 1; $i <= 5; $i++) {
                     for ($j = 5; $j > $i; $j--) {
