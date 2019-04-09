@@ -1,11 +1,9 @@
 <?php
-
 //Quantidade de pares e impares em 10 números
 
 $numeropar=0;
 $numeroimpar=0;
 $contagemvezes=1;
-
 
 do {print "Digite um número: ";
     $num = (float) fgets(STDIN);
@@ -18,4 +16,14 @@ do {print "Digite um número: ";
 
     $contagemvezes++;}  while($contagemvezes<=10);
 
-print "Quantidade de número(s) impar(es): $numeroimpar\nQuantidade de número(s) par(es): $numeropar";
+    if ($numeroimpar!=1 and $numeropar!=1){
+    print "Quantidade de números impares: $numeroimpar\nQuantidade de números pares: $numeropar";}
+
+    elseif ($numeroimpar==1 and $numeropar!=1){
+    print "Quantidade de número impar: $numeroimpar\nQuantidade de números pares: $numeropar";}
+
+    elseif ($numeroimpar=!1 and $numeropar==1){
+    print "Quantidade de números impares: $numeroimpar\nQuantidade de número par: $numeropar";}
+
+    elseif ($numeroimpar==1 and $numeropar==1){
+    print "Quantidade de número impar: $numeroimpar\nQuantidade de número par: $numeropar";};
