@@ -13,6 +13,7 @@
 - [x] Exercício 8
 - [x] Exercício 9
   - [x] Exercício 9 (versão array)
+  - [x] Exercício 9 (versão full bolada, bonita, show)
 - [x] Exercício 10
 - [x] Exercício 11
 - [x] Exercício 12
