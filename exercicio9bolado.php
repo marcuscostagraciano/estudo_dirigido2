@@ -5,6 +5,7 @@ $num= (float) fgets(STDIN);
 print "\n";
 
 $vezes=1;
+$i=0;
 
 while ($vezes<=$num)
     {print "Digite um número: ";
