@@ -7,6 +7,9 @@ print "\n";
 $vezes=1;
 $i=0;
 
+if ($num==0)
+    {exit;}
+
 while ($vezes<=$num)
     {print "Digite um número: ";
     $numero= (float) fgets(STDIN);
@@ -24,12 +27,10 @@ rsort($numeros);
 if (count($numeros)==1)
     {print $numeros[0];}
 
-elseif (count($numeros)!=1)
-
-                $vezvariavel=0;
+else            { $vezvariavel=(int) 0;
                 while ($i < count($numeros))
                 { print "\n".$numeros["$vezvariavel"];
                   $vezvariavel++;
-                  $i++;}
+                  $i++;}}
 
 print "\n";
